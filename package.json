@@ -5,11 +5,18 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio",
+    "db:push": "drizzle-kit push"
   },
   "dependencies": {
     "@tanstack/react-router": "^1.132.0",
     "@tanstack/react-router-devtools": "^1.132.0",
+    "better-auth": "^1.4.1",
+    "better-sqlite3": "^12.4.6",
+    "drizzle-orm": "^0.44.7",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-resizable-panels": "^3.0.6"
@@ -17,9 +24,11 @@
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.17",
     "@tanstack/router-plugin": "^1.132.0",
+    "@types/better-sqlite3": "^7.6.13",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
     "@vitejs/plugin-react": "^5.0.4",
+    "drizzle-kit": "^0.31.7",
     "tailwindcss": "^4.1.17",
     "typescript": "^5.7.2",
     "vite": "^7.1.7"

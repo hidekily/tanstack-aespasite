@@ -20,7 +20,7 @@ export function MemberLayout({
           </div>
           <div className="w-[50%] h-[100%] flex flex-col justify-center items-center gap-5">
             <h1 className="text-4xl text-sky-300">{nome}</h1>
-            <h2 className="text-2xl text-sky-400">{idade} anos</h2>
+            <h2 className="text-2xl text-sky-400">{idade}</h2>
           </div>
         </div>
       </div>
